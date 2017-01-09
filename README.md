@@ -11,7 +11,7 @@ PM2 module to monitor a Bitcoin node with Keymetrics
 This module requires a Bitcoin Daemon install (tested against v0.13.1.0).
 
 ### Bitnodes stats
-To be able to monitor status via bitnodes.21.co, the node must first be activated manually at https://bitnodes.21.co/nodes/<ADDRESS>-<PORT>/.
+To be able to monitor status via bitnodes.21.co, the node must first be activated manually at `https://bitnodes.21.co/nodes/<ADDRESS>-<PORT>/`
 
 ## Configure
 
