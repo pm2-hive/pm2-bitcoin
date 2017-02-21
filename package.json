@@ -1,0 +1,28 @@
+{
+  "name": "pm2-bitcoin",
+  "version": "0.1.0",
+  "description": "Bitcoin module",
+  "dependencies": {
+    "bitcoin-core": "^1.1.0",
+    "humanize": "0.0.9",
+    "pmx": "*",
+    "request": "^2.79.0"
+  },
+  "config": {
+    "host": "localhost",
+    "network": "mainnet",
+    "username": "foo",
+    "password": "bar",
+    "nodeAddress": "",
+    "nodePort": ""
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "index.js"
+    }
+  ],
+  "author": "Keymetrics Inc.",
+  "license": "MIT"
+}
